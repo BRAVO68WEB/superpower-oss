@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri
+
+      - name: Install frontend dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Check version synchronization
+        run: bun run check:versions
+
+      - name: Run frontend tests
+        run: bun run test
+
+      - name: Build frontend
+        run: bun run build
+
+      - name: Run Rust tests
+        working-directory: src-tauri
+        run: cargo test -q
+
+      - name: Run Rust check
+        working-directory: src-tauri
+        run: cargo check -q

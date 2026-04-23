@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.67615781672293 79.64155145636539" width="165.35231563344587" height="159.28310291273078">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://unpkg.com/@excalidraw/excalidraw@undefined/dist/excalidraw-assets/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://unpkg.com/@excalidraw/excalidraw@undefined/dist/excalidraw-assets/Cascadia.woff2");
+      }
+      @font-face {
+        font-family: "Assistant";
+        src: url("https://unpkg.com/@excalidraw/excalidraw@undefined/dist/excalidraw-assets/Assistant-Regular.woff2");
+      }
+    </style>
+    
+  </defs>
+  <rect x="0" y="0" width="82.67615781672293" height="79.64155145636539" fill="#ffffff"></rect><g stroke-linecap="round" transform="translate(10 10) rotate(0 31.338078908361467 29.820775728182696)"><path d="M14.91 0 C22.13 -0.37, 27.25 -0.62, 47.77 0 M14.91 0 C21.14 -0.82, 28.09 -0.82, 47.77 0 M47.77 0 C58.9 -1.12, 64.26 5.27, 62.68 14.91 M47.77 0 C57.83 1.86, 64.36 3.66, 62.68 14.91 M62.68 14.91 C64.48 24.79, 61.08 33.14, 62.68 44.73 M62.68 14.91 C62.23 25.12, 63.04 35.15, 62.68 44.73 M62.68 44.73 C63.86 54.22, 56.9 57.95, 47.77 59.64 M62.68 44.73 C60.76 55.7, 57.67 61.54, 47.77 59.64 M47.77 59.64 C37.12 57.93, 21.45 58.53, 14.91 59.64 M47.77 59.64 C37.29 60.5, 28.73 60.68, 14.91 59.64 M14.91 59.64 C5.33 60.2, 0.57 55.73, 0 44.73 M14.91 59.64 C3.2 60.5, -2.22 52.7, 0 44.73 M0 44.73 C-1.69 32.31, 0.7 23.46, 0 14.91 M0 44.73 C-0.45 35.14, 0.87 24.76, 0 14.91 M0 14.91 C0.98 6.28, 4.14 -0.25, 14.91 0 M0 14.91 C-1.01 2.88, 6.81 1.81, 14.91 0" stroke="#1e1e1e" stroke-width="2" fill="none"></path></g><g transform="translate(29.53988483229989 19.757052134421826) rotate(0 10.949999809265137 22.5)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="36px" fill="#1e1e1e" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">S</text></g></svg>
