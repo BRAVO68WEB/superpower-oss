@@ -22,6 +22,8 @@ jobs:
       channel: ${{ steps.meta.outputs.channel }}
       prerelease: ${{ steps.meta.outputs.prerelease }}
     steps:
+      - uses: actions/checkout@v4
+
       - id: meta
         shell: bash
         run: |
